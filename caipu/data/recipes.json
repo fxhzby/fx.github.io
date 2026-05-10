@@ -1,0 +1,290 @@
+[
+  {
+    "id": "001",
+    "title": "经典西红柿炒鸡蛋",
+    "author": "大厨小明",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
+    "category": "午餐",
+    "prep_time": "10分钟",
+    "cook_time": "5分钟",
+    "difficulty": "简单",
+    "calories": 180,
+    "rating": 4.8,
+    "tags": ["家常菜", "快手菜", "素食", "咸"],
+    "ingredients": [
+      {"name": "鸡蛋", "amount": "3个"},
+      {"name": "西红柿", "amount": "2个"},
+      {"name": "糖", "amount": "1勺"},
+      {"name": "盐", "amount": "适量"},
+      {"name": "葱", "amount": "少许"},
+      {"name": "食用油", "amount": "适量"}
+    ],
+    "steps": [
+      "西红柿切块，鸡蛋打散加少许盐搅拌均匀。",
+      "热锅凉油，倒入蛋液，待底部凝固后快速翻炒成大块，盛出备用。",
+      "锅中留底油，放入西红柿块，中火翻炒至出汁。",
+      "加入一勺糖提鲜，倒入炒好的鸡蛋混合翻炒均匀。",
+      "撒上葱花，即可出锅装盘。"
+    ]
+  },
+  {
+    "id": "002",
+    "title": "宫保鸡丁",
+    "author": "川味大师",
+    "image_url": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=600&h=400&fit=crop",
+    "category": "午餐",
+    "prep_time": "20分钟",
+    "cook_time": "10分钟",
+    "difficulty": "中等",
+    "calories": 320,
+    "rating": 4.9,
+    "tags": ["川菜", "下饭菜", "辣"],
+    "ingredients": [
+      {"name": "鸡胸肉", "amount": "300克"},
+      {"name": "花生米", "amount": "50克"},
+      {"name": "干辣椒", "amount": "10个"},
+      {"name": "花椒", "amount": "1小勺"},
+      {"name": "葱", "amount": "2根"},
+      {"name": "蒜", "amount": "3瓣"},
+      {"name": "姜", "amount": "3片"},
+      {"name": "酱油", "amount": "2勺"},
+      {"name": "醋", "amount": "1勺"},
+      {"name": "糖", "amount": "1勺"},
+      {"name": "淀粉", "amount": "适量"}
+    ],
+    "steps": [
+      "鸡胸肉切丁，加酱油、料酒、淀粉腌制15分钟。",
+      "花生米小火炒至金黄酥脆，盛出备用。",
+      "碗中调酱汁：酱油、醋、糖、淀粉加少许水拌匀。",
+      "热锅下油，爆香干辣椒和花椒至变色出香。",
+      "下入鸡丁大火翻炒至变色，加入葱姜蒜炒香。",
+      "倒入调好的酱汁快速翻炒均匀，最后撒入花生米即可。"
+    ]
+  },
+  {
+    "id": "003",
+    "title": "红烧肉",
+    "author": "家常味道",
+    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+    "category": "晚餐",
+    "prep_time": "15分钟",
+    "cook_time": "60分钟",
+    "difficulty": "中等",
+    "calories": 450,
+    "rating": 4.7,
+    "tags": ["家常菜", "下饭菜", "咸", "硬菜"],
+    "ingredients": [
+      {"name": "五花肉", "amount": "500克"},
+      {"name": "冰糖", "amount": "30克"},
+      {"name": "酱油", "amount": "3勺"},
+      {"name": "料酒", "amount": "2勺"},
+      {"name": "八角", "amount": "2个"},
+      {"name": "桂皮", "amount": "1小段"},
+      {"name": "葱", "amount": "2根"},
+      {"name": "姜", "amount": "5片"}
+    ],
+    "steps": [
+      "五花肉切3厘米见方的块，冷水下锅焯水去血沫，捞出洗净。",
+      "锅中放少许油，小火放入冰糖炒至枣红色起大泡。",
+      "下入五花肉翻炒上色，加入葱姜、八角、桂皮炒香。",
+      "加入酱油、料酒翻炒均匀，加入没过肉的热水。",
+      "大火烧开后转小火炖45分钟至肉烂。",
+      "大火收汁至汤汁浓稠即可出锅。"
+    ]
+  },
+  {
+    "id": "004",
+    "title": "蛋炒饭",
+    "author": "快手小厨",
+    "image_url": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&h=400&fit=crop",
+    "category": "早餐",
+    "prep_time": "5分钟",
+    "cook_time": "5分钟",
+    "difficulty": "简单",
+    "calories": 350,
+    "rating": 4.5,
+    "tags": ["快手菜", "主食", "咸"],
+    "ingredients": [
+      {"name": "隔夜米饭", "amount": "1碗"},
+      {"name": "鸡蛋", "amount": "2个"},
+      {"name": "葱", "amount": "2根"},
+      {"name": "盐", "amount": "适量"},
+      {"name": "食用油", "amount": "适量"}
+    ],
+    "steps": [
+      "隔夜米饭用手打散，鸡蛋打散备用，葱切葱花。",
+      "热锅下油，倒入蛋液快速滑炒至半凝固。",
+      "立即倒入米饭，大火快速翻炒，让每一粒米都裹上蛋液。",
+      "加盐调味，撒入葱花翻炒均匀即可出锅。"
+    ]
+  },
+  {
+    "id": "005",
+    "title": "酸辣土豆丝",
+    "author": "家常味道",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
+    "category": "午餐",
+    "prep_time": "15分钟",
+    "cook_time": "5分钟",
+    "difficulty": "简单",
+    "calories": 120,
+    "rating": 4.6,
+    "tags": ["家常菜", "素食", "辣", "快手菜"],
+    "ingredients": [
+      {"name": "土豆", "amount": "2个"},
+      {"name": "干辣椒", "amount": "5个"},
+      {"name": "花椒", "amount": "少许"},
+      {"name": "醋", "amount": "2勺"},
+      {"name": "盐", "amount": "适量"},
+      {"name": "葱", "amount": "少许"},
+      {"name": "蒜", "amount": "2瓣"}
+    ],
+    "steps": [
+      "土豆去皮切细丝，泡入清水中洗去淀粉，沥干备用。",
+      "热锅下油，小火爆香干辣椒和花椒。",
+      "下入土豆丝大火快炒，保持脆嫩口感。",
+      "加入醋和盐调味，翻炒约2分钟。",
+      "撒上蒜末和葱花，翻匀出锅。"
+    ]
+  },
+  {
+    "id": "006",
+    "title": "可乐鸡翅",
+    "author": "甜蜜厨房",
+    "image_url": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&h=400&fit=crop",
+    "category": "晚餐",
+    "prep_time": "10分钟",
+    "cook_time": "25分钟",
+    "difficulty": "简单",
+    "calories": 280,
+    "rating": 4.8,
+    "tags": ["家常菜", "甜", "下饭菜"],
+    "ingredients": [
+      {"name": "鸡翅中", "amount": "10个"},
+      {"name": "可乐", "amount": "1罐（330ml）"},
+      {"name": "酱油", "amount": "2勺"},
+      {"name": "姜", "amount": "3片"},
+      {"name": "料酒", "amount": "1勺"},
+      {"name": "盐", "amount": "少许"}
+    ],
+    "steps": [
+      "鸡翅两面各划两刀方便入味，冷水下锅焯水捞出。",
+      "热锅少许油，放入鸡翅煎至两面金黄。",
+      "加入姜片、酱油、料酒翻炒均匀。",
+      "倒入可乐没过鸡翅，大火烧开转小火炖15分钟。",
+      "大火收汁至汤汁浓稠发亮即可。"
+    ]
+  },
+  {
+    "id": "007",
+    "title": "番茄蛋花汤",
+    "author": "大厨小明",
+    "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop",
+    "category": "晚餐",
+    "prep_time": "5分钟",
+    "cook_time": "10分钟",
+    "difficulty": "简单",
+    "calories": 90,
+    "rating": 4.4,
+    "tags": ["汤品", "素食", "快手菜", "咸"],
+    "ingredients": [
+      {"name": "西红柿", "amount": "2个"},
+      {"name": "鸡蛋", "amount": "2个"},
+      {"name": "盐", "amount": "适量"},
+      {"name": "香油", "amount": "少许"},
+      {"name": "葱", "amount": "少许"},
+      {"name": "白胡椒粉", "amount": "少许"}
+    ],
+    "steps": [
+      "西红柿切小块，鸡蛋打散备用。",
+      "锅中加水烧开，放入西红柿煮3分钟至软烂出汁。",
+      "转小火，将蛋液沿筷子缓缓倒入，形成漂亮的蛋花。",
+      "加盐、白胡椒粉调味，淋上香油，撒葱花即可。"
+    ]
+  },
+  {
+    "id": "008",
+    "title": "蒜蓉西兰花",
+    "author": "健康达人",
+    "image_url": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&h=400&fit=crop",
+    "category": "午餐",
+    "prep_time": "10分钟",
+    "cook_time": "5分钟",
+    "difficulty": "简单",
+    "calories": 85,
+    "rating": 4.3,
+    "tags": ["素食", "低卡", "快手菜", "咸"],
+    "ingredients": [
+      {"name": "西兰花", "amount": "1颗"},
+      {"name": "蒜", "amount": "5瓣"},
+      {"name": "蚝油", "amount": "1勺"},
+      {"name": "盐", "amount": "适量"},
+      {"name": "食用油", "amount": "适量"}
+    ],
+    "steps": [
+      "西兰花掰成小朵，淡盐水浸泡10分钟后洗净。",
+      "烧开水加少许盐和油，西兰花焯水1分钟捞出过凉水。",
+      "热锅下油，爆香蒜末至微黄。",
+      "下入西兰花快速翻炒，加蚝油和盐调味即可。"
+    ]
+  },
+  {
+    "id": "009",
+    "title": "糖醋排骨",
+    "author": "家常味道",
+    "image_url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&h=400&fit=crop",
+    "category": "晚餐",
+    "prep_time": "15分钟",
+    "cook_time": "30分钟",
+    "difficulty": "中等",
+    "calories": 380,
+    "rating": 4.9,
+    "tags": ["家常菜", "甜", "下饭菜", "硬菜"],
+    "ingredients": [
+      {"name": "小排骨", "amount": "500克"},
+      {"name": "醋", "amount": "3勺"},
+      {"name": "糖", "amount": "3勺"},
+      {"name": "酱油", "amount": "2勺"},
+      {"name": "料酒", "amount": "2勺"},
+      {"name": "姜", "amount": "3片"},
+      {"name": "白芝麻", "amount": "少许"}
+    ],
+    "steps": [
+      "排骨剁小段，冷水下锅焯水去血沫，捞出洗净沥干。",
+      "热锅下油，放入排骨煎至两面微黄。",
+      "加入姜片、料酒、酱油翻炒上色。",
+      "加入适量热水没过排骨，大火烧开转小火炖20分钟。",
+      "加入糖和醋，大火收汁至浓稠，撒白芝麻即可。"
+    ]
+  },
+  {
+    "id": "010",
+    "title": "麻婆豆腐",
+    "author": "川味大师",
+    "image_url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600&h=400&fit=crop",
+    "category": "午餐",
+    "prep_time": "10分钟",
+    "cook_time": "10分钟",
+    "difficulty": "中等",
+    "calories": 220,
+    "rating": 4.7,
+    "tags": ["川菜", "下饭菜", "辣", "素食"],
+    "ingredients": [
+      {"name": "嫩豆腐", "amount": "1块"},
+      {"name": "猪肉末", "amount": "100克"},
+      {"name": "豆瓣酱", "amount": "2勺"},
+      {"name": "花椒粉", "amount": "1小勺"},
+      {"name": "蒜", "amount": "3瓣"},
+      {"name": "姜", "amount": "3片"},
+      {"name": "葱", "amount": "少许"},
+      {"name": "淀粉", "amount": "适量"}
+    ],
+    "steps": [
+      "豆腐切2厘米小方块，入淡盐水焯烫2分钟捞出沥干。",
+      "热锅下油，炒散肉末至变色出油。",
+      "加入豆瓣酱、姜末、蒜末小火炒出红油。",
+      "加入适量清水烧开，轻轻放入豆腐块，小火炖5分钟入味。",
+      "淀粉勾薄芡，撒花椒粉和葱花即可出锅。"
+    ]
+  }
+]

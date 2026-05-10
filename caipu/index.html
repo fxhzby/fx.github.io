@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#E85D3A">
+  <title>美味厨房 - 发现你的拿手好菜</title>
+  <meta name="description" content="美味厨房提供清晰、步骤详细、图片精美的家常菜谱，支持按食材搜索，让你每天都有新灵感。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        美味厨房
+      </a>
+      <div class="nav-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="navSearchInput" placeholder="搜索菜谱、食材...">
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="active">首页</a>
+        <a href="search.html">搜索</a>
+        <a href="search.html?category=早餐">早餐</a>
+        <a href="search.html?category=午餐">午餐</a>
+        <a href="search.html?category=晚餐">晚餐</a>
+        <a href="search.html?category=甜点">甜点</a>
+      </div>
+      <button class="btn-upload" id="btnUpload">+ 上传菜谱</button>
+      <button class="hamburger" id="hamburger" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 英雄区 -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>发现你的拿手好菜</h1>
+      <p>海量精选菜谱，从家常小炒到宴客大餐，让每一顿都充满惊喜</p>
+      <div class="hero-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="heroSearchInput" placeholder="输入菜名或食材，如「鸡蛋」「西红柿」...">
+      </div>
+      <div class="hero-tags" id="heroTags">
+        <span>家常菜</span><span>快手菜</span><span>低卡</span><span>下饭菜</span><span>素食</span><span>硬菜</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 菜谱列表 -->
+  <main class="container">
+    <div class="category-bar" id="categoryBar">
+      <button class="category-btn active" data-cat="全部">全部</button>
+      <button class="category-btn" data-cat="早餐">早餐</button>
+      <button class="category-btn" data-cat="午餐">午餐</button>
+      <button class="category-btn" data-cat="晚餐">晚餐</button>
+    </div>
+    <h2 class="section-title">精选菜谱</h2>
+    <div class="recipe-grid" id="recipeGrid"></div>
+  </main>
+
+  <!-- 上传弹窗 -->
+  <div class="modal-overlay" id="uploadModal">
+    <div class="modal">
+      <h2>上传新菜谱</h2>
+      <form id="uploadForm">
+        <div class="form-group">
+          <label>菜谱名称</label>
+          <input type="text" name="title" required placeholder="如：红烧排骨">
+        </div>
+        <div class="form-group">
+          <label>分类</label>
+          <select name="category">
+            <option>早餐</option><option>午餐</option><option>晚餐</option><option>甜点</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>难度</label>
+          <select name="difficulty">
+            <option>简单</option><option>中等</option><option>困难</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>准备时间</label>
+          <input type="text" name="prep_time" placeholder="如：10分钟">
+        </div>
+        <div class="form-group">
+          <label>烹饪时间</label>
+          <input type="text" name="cook_time" placeholder="如：20分钟">
+        </div>
+        <div class="form-group">
+          <label>食材（每行一个，格式：食材名,用量）</label>
+          <textarea name="ingredients" rows="4" placeholder="鸡蛋,3个&#10;西红柿,2个&#10;盐,适量"></textarea>
+        </div>
+        <div class="form-group">
+          <label>步骤（每行一个步骤）</label>
+          <textarea name="steps" rows="4" placeholder="第一步操作&#10;第二步操作"></textarea>
+        </div>
+        <div class="form-group">
+          <label>标签（逗号分隔）</label>
+          <input type="text" name="tags" placeholder="家常菜,快手菜,素食">
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn-cancel" id="btnCancelUpload">取消</button>
+          <button type="submit" class="btn-submit">提交菜谱</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <p>美味厨房 &copy; 2026 &mdash; 发现美食，享受生活</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
